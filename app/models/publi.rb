@@ -1,0 +1,2 @@
+class Publi < ApplicationRecord
+end
