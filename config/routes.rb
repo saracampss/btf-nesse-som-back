@@ -40,5 +40,10 @@ Rails.application.routes.draw do
   put '/lancamentos' => 'lancamento#update'
 
   put '/adm' => 'adm#update'
+  post '/adm' => 'adm#create'
+
+  resource :adms, only: [:create]
+  post "/login", to: "adms#login"
+  get "/auto_login", to: "adms#auto_login"
 end
 

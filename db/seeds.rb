@@ -3,5 +3,5 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+adm = Adm.create(email: 'a@email.com', password: '12345')
 #   Character.create(name: 'Luke', movie: movies.first)
